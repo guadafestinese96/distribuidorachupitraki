@@ -8,7 +8,6 @@
 } 
 
 .titleIndex {
-    margin-top: 10px;
     color: black;
     text-shadow: 1px 1px 1px var(--colorPrimario);
     filter: drop-shadow(1px 3px 1px rgb(255, 194, 25));
