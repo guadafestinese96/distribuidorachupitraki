@@ -10,4 +10,3 @@ export default function ItemDetail({ item }) {
         </div>
     )
 }
-//agregar ml etc
