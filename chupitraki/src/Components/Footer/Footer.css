@@ -1,0 +1,89 @@
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 90px;
+    padding: 5px;
+    bottom: 0;
+    position: fixed;
+    
+}
+.text{
+    font-size: 15px;
+    color: var(--colorSecundario);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.contactFooter{
+    display: flex;
+    align-items: center;
+}
+
+.logosFooter{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-color: var(--colorSecundario);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.logosFooterEmail{
+    height: 30px;
+    background-color: var(--colorSecundario);
+    padding: 5px;
+    border-radius: 5px;
+}
+.logosFooterEmail:hover{
+    background-color: var(--colorPrimario);
+}
+
+.logosFooter:hover{
+    cursor: pointer;
+    background-color: var(--colorPrimario);
+    transition: 500ms;
+}
+
+.pFooter{
+    color: var(--colorPrimario);
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 500px){
+
+    .footerContainer{
+        height:70px;
+    }
+   
+    .logosFooter{
+        width: 30px;
+        height: 30px;
+        margin: unset;
+        margin: 5px;
+    }
+
+    .logosFooterEmail{
+        height: 30px;
+    }
+
+    .text{
+        font-size: 10px;
+        text-align: center;
+        width: 180px;
+    }
+
+  
+}
