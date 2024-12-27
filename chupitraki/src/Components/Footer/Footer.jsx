@@ -12,7 +12,7 @@ export default function Footer() {
                 <div className='textContainer'>
                     <p className='text'>+54 9 1150057994</p>
                     <p className='text'>@distribuidora_chupitraki</p>
-                    <p className='text'>Molina Ciudad, Barracas, CABA</p>
+                    <p className='text'>Barracas, CABA</p>
                 </div>
 
 
