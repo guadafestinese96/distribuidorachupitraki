@@ -1,13 +1,11 @@
 .footerContainer{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 90px;
-    padding: 5px;
+    padding: 10px;
     bottom: 0;
     position: fixed;
     
@@ -16,14 +14,12 @@
     font-size: 15px;
     color: var(--colorSecundario);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
+    margin: 0;
+    padding-left: 10px;
 }
-.icons{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-}
+
+
+
 
 .contactFooter{
     display: flex;
@@ -40,9 +36,9 @@
 }
 
 .logosFooterEmail{
-    height: 30px;
+    height: 40px;
     background-color: var(--colorSecundario);
-    padding: 5px;
+    padding: 8px;
     border-radius: 5px;
 }
 .logosFooterEmail:hover{
@@ -59,13 +55,33 @@
     color: var(--colorPrimario);
 }
 
+.footerContent{
+    color: var(--colorPrimario);
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.datosContacto{
+    color: var(--colorSecundario);
+}
 
 
+
+.iconsFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media screen and (min-width: 320px) and (max-width: 500px){
 
     .footerContainer{
-        height:70px;
+        height:150px;
+        flex-direction: column;
     }
    
     .logosFooter{
@@ -81,9 +97,14 @@
 
     .text{
         font-size: 10px;
-        text-align: center;
         width: 180px;
+        text-align: center;
     }
+
+    .footerContent{
+        font-size: 8px;
+    }
+
 
   
 }
