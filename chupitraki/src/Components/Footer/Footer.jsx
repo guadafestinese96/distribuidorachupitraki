@@ -68,9 +68,6 @@ export default function Footer() {
             +54 9 1161950112
           </a>
         </div>
-        <div>
-          <p>Última actualización: diciembre de 2024</p>
-        </div>
       </div>
     </div>
   );
