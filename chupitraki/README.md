@@ -1,8 +1,25 @@
-***DISTRIBUIDORA CHUPITRAKI***
+# Distribuidora Chupitraki
 
-Es una página web de una distribuidora de bebidas alcohólicas nacionales e importadas. Esta página es únicamente para mostrar los productos, no se puede comprar por la misma, ya que el stock y los precios varían constantemente, por ello las compras se pueden realizar únicamente mediante WhatsApp. Se puede acceder directamente a la conversación de WhatsApp mediante el ícono situado en el footer, o mediante el botón de "consultar" que figura en cada ítem. También se puede enviar un mail desde el formulario situado en el footer del lado izquierdo con ícono de mail. Este formulario se envía directamente a la casilla de mail del dueño de la distribuidora, gracias al uso de Formspree. Por otro lado tenemos acceso al Instagram de la distribuidora, en el ícono correspondiente situado en el footer.
-En el Header se encuentra el menú desplegable para poder ver los productos, los cuales se pueden ver todos juntos o separados por categoría. Para saber en qué pestaña estamos situados, podemos ver que el fondo de cada "li" cambia a color naranja cuando está activo.
-Para volver a la página de inicio debemos hacer click en el logo principal que se encuentra en el Header del lado izquierdo.
-Por último tenemos el ícono de mapas que nos redirecciona a la aplicación Google Maps para ver donde está ubicada la distribuidora.
+Proyecto web para una distribuidora de bebidas.
 
-En cuanto a la aplicación en sí, está programada con React JS y Vite, con Node JS. Por lo tanto para poder correrla debemos correr el comando **"npm run dev"**. Utilicé CSS para los estilos, y styled components en algunos componentes. Algunas fuentes las importé de Google Fonts.
+## 🛠️ Tecnologías
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+## 📄 Descripción
+Landing page para mostrar productos y servicios de la distribuidora Chupitraki. Tiene diseño responsive y una estructura moderna con enfoque en ventas.
+
+## 📦 Estructura
+- Secciones: inicio, productos, contacto.
+- Diseño limpio, con foco en destacar productos y facilitar el contacto.
+
+## 📸 Capturas
+*(Podés agregar capturas de pantalla si querés)*
+
+## 🚀 Cómo usar
+Solo abrir `index.html` en tu navegador.
+
+## ✨ Autor
+Guadalupe Festinese
